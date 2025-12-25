@@ -1,4 +1,3 @@
-// import "./style.css";
 import * as three from "three";
 
 const scene = new three.Scene();
@@ -14,7 +13,6 @@ const renderer = new three.WebGLRenderer({
 });
 
 renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setAnimationLoop(animate);
 
 renderer.render(scene, camera);
 
